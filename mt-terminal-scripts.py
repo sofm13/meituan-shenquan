@@ -58,7 +58,7 @@ head={"Host": "i.waimai.meituan.com","User-Agent":"MeituanGroup/11.9.208","x-req
 baseurl=r"https://i.waimai.meituan.com"
 #定义 pushPlus 的webhook地址，用于企业微信等渠道的推送，默认为空，若采用企业微信，请手动填写
 global webhook
-webhook = ""
+webhook = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=7759eab7-0177-40b2-a6d3-0298203d98c2"
 
 #定义全局变量并初始化 以下初始化赋值的变量不要改！！！！
 global propIdforuse
